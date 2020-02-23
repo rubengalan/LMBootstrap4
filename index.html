@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Rubén Galán Pérez">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/jfif" href="img/favicon.jfif">
+    <title>Trabajo de Boostrap</title>
+</head>
+<body style="background-color: black;">
+
+    <!-- Aquí empieza el nav -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#inicio">inicio</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contenido">Contenido<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Fase 1
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#nucleo">Núcleo de magma</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#onyxia">Guarida de Onyxia</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Fase 2
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#grito">Garganta Grito de Guerra</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#alterac">Valle Alterac</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proximamente">Próximo<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contáctanos<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<header id="inicio">
+
+    <!-- Aquí esta el jumbotron -->
+
+    <div class="jumbotron text-center p-6" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+        <h1 class="display-4 font-weight-bolder">World of Warcraft Classic</h1>
+        <p class="lead font-weight-bold">Trataremos las distintas fases del juego</p>
+        <hr class="my-4">
+        <p>Tanto jefes que componen las distintas raids como otras clases de contenido pvp</p>
+    </div>
+</header>
+
+    <!-- Aquí esta la hero section -->
+
+<section id="contenido">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="img/nucleo.jpg" class="d-block w-100" alt="Núcleo de magma">
+        <div class="carousel-caption d-none d-md-block">
+            <h4>Núcleo de magma</h4>
+            <p>Es una de las primeras raids del juego</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="img/onyxia.jpg" class="d-block w-100" alt="Guarida de Onyxia">
+        <div class="carousel-caption d-none d-md-block">
+            <h4>Guarida de Onyxia</h4>
+            <p>Es una de las primeras raids del juego</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="img/grito.jpg" class="d-block w-100" alt="Garganta grito de guerra">
+        <div class="carousel-caption d-none d-md-block">
+            <h4>Garganta grito de guerra</h4>
+            <p>Es de los primeros campos de batalla del juego</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="img/alterac.jpg" class="d-block w-100" alt="Valle Alterac">
+        <div class="carousel-caption d-none d-md-block">
+            <h4>Valle Alterac</h4>
+            <p>Es de los primeros campos de batalla del juego</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/alanegra.jpg" class="d-block w-100" alt="Guarida de Alanegra">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>Guarida de Alanegra</h4>
+                <p>Es las segunda raid del juego</p>
+            </div>
+            </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+</section>
+
+<!-- Aquí empieza la primera seccion (nucleo de magma) -->
+
+<section id="nucleo">
+    <div class="titulo my-4">
+        <p class="display-4 text-center text-danger font-weight-bold border-bottom border-primary w-50 mx-auto shadow">Núcleo de magma</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row p-4">
+            <div class="col-12 col-md-6 col-lg-3 p-4">
+                <div class="card">
+                    <img src="img/nucleo/lucifron.jpg" class="card-img-top" alt="Lucifron">
+                    <div class="card-body">
+                    <h5 class="card-title">Lucifron</h5>
+                    <p class="card-text">
+                        Además del botín, Lucifron otorga 100 Reputación con Señores del Agua de Hydraxis, hasta 20999/21000 Reverenciado.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter1">
+                       Habilidades
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Todas las habilidades</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_nightofthedead.gif" style="vertical-align: middle;">  Condena inminente
+                                <br>
+                                Esta habilidad inflige 2000 p. De daño de las Sombras al objetivo después de 10 segundos, y Lucifron enviará esto constantemente a la incursión.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_blackplague.gif" style="vertical-align: middle;">  Maldición de Lucifrón
+                                <br>
+                                Esta habilidad hace que tus habilidades y hechizos cuesten el doble de recursos durante 5 minutos. Lucifron lo usará aproximadamente cada 15 segundos.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_shadowbolt.gif" style="vertical-align: middle;">  Reacción a las Sombras
+                                <br>
+                                Esta habilidad inflige daño aleatorio de las Sombras a un miembro de la banda.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-4">
+                <div class="card">
+                    <img src="img/nucleo/magmadar.jpg" class="card-img-top" alt="Magmadar">
+                    <div class="card-body">
+                    <h5 class="card-title">Magmadar</h5>
+                    <p class="card-text">Además del botín, Magmadar otorga 100 Reputación con Señores del Agua de Hydraxis, hasta 20999/21000 Reverenciado.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter2">
+                        Habilidades
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Habilidades</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/ability_druid_challangingroar.gif" style="vertical-align: middle;"> Frenesí
+                                <br>
+                                Magmadar will buff himself often with this ability, increasing his attack speed for 150% for 8 seconds.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_selfdestruct.gif" style="vertical-align: middle;"> Bomba de lava
+                                <br>
+                                Magmadar lanza una bomba de lava al objetivo, lo que inflige daño de Fuego y deja un parche de fuego en el suelo.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_deathscream.gif" style="vertical-align: middle;"> Pánico
+                                <br>
+                                Magmadar entra en pánico a los enemigos cercanos, enviándolos lejos con miedo durante 8 segundos.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_meteorstorm.gif" style="vertical-align: middle;"> Chorro de magma
+                                <br>
+                                Magmadar spits fire at nearby targets, applying a Fire damage DOT. Lasts 30 seconds, stacks up to 3 times.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-4">
+                <div class="card">
+                    <img src="img/nucleo/gehenas.jpg" class="card-img-top" alt="Gehennas">
+                    <div class="card-body">
+                    <h5 class="card-title">Gehennas</h5>
+                    <p class="card-text">Además del botín, Gehennas otorga 100 Reputación con Señores del Agua de Hydraxis, hasta 20999/21000 Reverenciado.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter3">
+                        Habilidades
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Habilidades</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">                         
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_rainoffire.gif" style="vertical-align: middle;">  Lluvia de Fuego
+                                <br>
+                                Gehennas invoca una lluvia fundida, que inflige daño de Fuego a todos los enemigos en el área seleccionada durante 6 segundos.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_gathershadows.gif" style="vertical-align: middle;">  Maldición de Gehennas
+                                <br>
+                                Esta habilidad disminuye toda la curación tomada del objetivo en un 75% durante 5 minutos. Gehennas lanzará esta habilidad en toda la incursión, aproximadamente cada 15 segundos.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_shadowbolt.gif" style="vertical-align: middle;">  Descarga de las Sombras
+                                <br>
+                                Gehennas dispara un rayo sombrío a un miembro de la banda al azar, lo que inflige daño de las Sombras.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-4">
+                <div class="card">
+                    <img src="img/nucleo/garr.jpg" class="card-img-top" alt="Garr">
+                    <div class="card-body">
+                    <h5 class="card-title">Garr</h5>
+                    <Además class="card-text">Además del botín, Garr otorga 100 Reputación con Señores del Agua de Hydraxis, hasta 20999/21000 Reverenciado.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter4">
+                        Habilidades
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_dispelmagic.gif" style="vertical-align: middle;">  Pulso antimagia
+                            <br>
+                            Garr suelta pulsos antimagia, eliminando un efecto beneficioso de los jugadores en la redada.
+                            <br>
+                            <br>
+                            <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_earthbind.gif" style="vertical-align: middle;">  Grilletes de magma
+                            <br>
+                            Garr reduce la velocidad de movimiento de los enemigos cercanos en un 60% durante 15 segundos.
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row p-4">
+            <div class="col-12 col-md-6 col-lg-3 p-4">
+                <div class="card">
+                    <img src="img/nucleo/baron.jpg" class="card-img-top" alt="Baron Geddon">
+                    <div class="card-body">
+                    <h5 class="card-title">Baron Geddon</h5>
+                    <p class="card-text">
+                        Además del botín, el Barón Geddon otorga 100 Reputación con los Señores del Agua de Hydraxis, hasta 20999/21000 Reverenciado.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter5">
+                        Habilidades
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Habilidades</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_incinerate.gif" style="vertical-align: middle;">  Ignición de maná
+                                <br>
+                                Geddon quema un objetivo aleatorio, quemando su maná cada 3 segundos. Cada punto de Mana quemado también inflige daño al objetivo.
+                                Encender maná es muy potente y puede drenar rápidamente el maná de tu banda.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_incinerate.gif" style="vertical-align: middle;">  Infierno
+                                <br>
+                                Geddon se rodea de un infierno, lo que inflige periódicamente daño de Fuego a los enemigos cercanos durante 8 segundos. 
+                                 <br>
+                                 <br>
+                                 <img src="https://wow.zamimg.com/images/wow/icons/tiny/inv_enchant_essenceastralsmall.gif" style="vertical-align: middle;">  Bomba viviente
+                                <br>
+                                Geddon transforma a un enemigo en una bomba. Después de 8 segundos, la bomba explota, lo que inflige un gran daño de Fuego en ellos y en todos los jugadores cercanos, derribándolos.
+                                 <br>
+                                 <br>
+                                 <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_selfdestruct.gif" style="vertical-align: middle;">  Armagedón
+                                <br>
+                                Cuando está cerca de la muerte, Geddon crea un armageddon, explota después de 8 segundos e inflige daño de Fuego letal a toda la incursión.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-4">
+                <div class="card">
+                    <img src="img/nucleo/shazzrah.jpg" class="card-img-top" alt="Shazzrah">
+                    <div class="card-body">
+                    <h5 class="card-title">Shazzrah</h5>
+                    <p class="card-text">Además del botín, Gehennas otorga 100 Reputación con Señores del Agua de Hydraxis, hasta 20999/21000 Reverenciado.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter6">
+                        Habilidades
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Habilidades</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_antishadow.gif" style="vertical-align: middle;">  Maldición de Shazzrah
+                                <br>
+                                Shazzrah maldice la incursión, duplicando el daño mágico recibido durante 5 minutos. Esto se lanza aproximadamente cada 10 segundos.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_wispsplode.gif" style="vertical-align: middle;">  Deflagración Arcana
+                                <br>
+                                Shazzrah libera una explosión arcana que inflige daño Arcano a todos los jugadores cercanos. Esto se lanza aproximadamente cada 4 segundos.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_arcane_blink.gif" style="vertical-align: middle;">  Traslación
+                                <br>
+                                Shazzrah se teletransporta sobre un jugador aleatorio, eliminando toda amenaza en el proceso. Esto se lanza aproximadamente cada 30 segundos, pero los tiempos pueden variar.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_frost_iceshock.gif" style="vertical-align: middle;">  Contrahechizo
+                                <br>
+                                Shazzrah contrarresta la incursión. Si lanzas mientras te contraataca, no podrás lanzar hechizos de esa escuela de hechizos durante 10 segundos. Esto se lanza aproximadamente cada 15 segundos.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_sealofsalvation.gif" style="vertical-align: middle;">  Atenuar magia
+                                <br>
+                                Shazzrah se mejora, reduciendo todo el daño mágico recibido en un 50% durante 30 segundos. Esto se lanza aproximadamente cada 10 segundos.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-4">
+                <div class="card">
+                    <img src="img/nucleo/sulfuron.jpg" class="card-img-top" alt="Sulfuron">
+                    <div class="card-body">
+                    <h5 class="card-title">Sulfuron</h5>
+                    <p class="card-text">Además del botín, Sulfuron otorga 100 Reputación con Señores del Agua de Hydraxis, hasta 20999/21000 Reverenciado.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter7">
+                        Habilidades
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Habilidades</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_fireball.gif" style="vertical-align: middle;">  Mano de Ragnaros
+                                <br>
+                                Sulfuron derriba a todos los objetivos cercanos, inflige daño de Fuego y los aturde durante 2 segundos.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/ability_warrior_battleshout.gif" style="vertical-align: middle;">  Inspirar
+                                Sulfuron inspira a un aliado cercano, lo que aumenta el daño físico infligido en un 25% y la velocidad de ataque en un 100% durante 10 segundos.
+
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-4">
+                <div class="card">
+                    <img src="img/nucleo/golemag.jpg" class="card-img-top" alt="Golemagg el Incinerador">
+                    <div class="card-body">
+                    <h5 class="card-title">Golemagg el Incinerador</h5>
+                    <p class="card-text">Además del botín, Golemagg otorga 150 Reputación con Señores del Agua de Hydraxis, hasta Exaltado.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter8">
+                        Habilidades
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_immolation.gif" style="vertical-align: middle;">  Gapo de magma
+                            <br>
+                            Golemagg salpica magma a sus atacantes, inflige daño de Fuego con el tiempo y reduce su armadura. Esta habilidad puede acumularse.
+                            <br>
+                            <br>
+                            <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_fireball02.gif" style="vertical-align: middle;">  Piroexplosión
+                            <br>
+                            Golemagg Pyroblasts un jugador aleatorio, que inflige daño de Fuego y deja un DOT de Fuego adicional en ellos.
+                            <br>
+                            <br>
+                            <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_earthquake.gif" style="vertical-align: middle;">  Terremoto
+                            <br>
+                            Con un 10% de salud, Golemagg hará un terremoto e infligirá daño físico a todos los jugadores cada dos segundos.
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row p-4">
+            <div class="col-12 col-md-6 col-lg-3 p-4">
+                <div class="card">
+                    <img src="img/nucleo/mayordomo.jpg" class="card-img-top" alt="Mayordomo Executus">
+                    <div class="card-body">
+                    <h5 class="card-title">Mayordomo Executus</h5>
+                    <p class="card-text">Además del botín, Mayordomo otorga 20 reputación con los Señores del Agua de Hydraxis, hasta 20999/21000 Reverenciado.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter9">
+                        Habilidades
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Habilidades</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body"> 
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_antishadow.gif" style="vertical-align: middle;">  Auspicio de Ragnaros
+                                <br>
+                                Esta habilidad protege a todos los aliados de Mayordomo y les da un escudo de absorción para 30,000 daños, además los atacantes cuerpo a cuerpo reciben 250 daños si atacan a este escudo.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_antishadow.gif" style="vertical-align: middle;">  Escudo de daños
+                                <br>
+                                En una línea similar a Auspicio de Ragnaros, esta habilidad no debería ser un problema, ya que el daño que causa puede curarse fácilmente.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_frost_frostshock.gif" style="vertical-align: middle;">  Refracción mágica
+                                <br>
+                                Esta habilidad es particularmente peligrosa para los lanzadores ya que puedes sacarte fácilmente de la pelea si no estás prestando atención.
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_arcane_blink.gif" style="vertical-align: middle;">  Teletransporte
+                                <br>
+                                Esta habilidad teletransportará al objetivo principal de amenaza de Mayordomo a las brasas que se encuentran en el centro de la habitación del jefe, por eso querrás colocar a Mayordomo en el lado opuesto de los carbones para que el tanque pueda levantar fácilmente al jefe mientras corre hacia la incursión.
+                            
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-4">
+                <div class="card">
+                    <img src="img/nucleo/ragnaros.jpg" class="card-img-top" alt="Ragnaros">
+                    <div class="card-body">
+                    <h5 class="card-title">Ragnaros</h5>
+                    <p class="card-text">Además del botín, Ragnaros otorga 200 Reputación con los Señores del Agua de Hydraxis, hasta Exaltado.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter10">
+                        Habilidades
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Habilidades</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_soulburn.gif" style="vertical-align: middle;">  Cólera de Ragnaros
+                                <br>
+                                Esta es la habilidad "cuerpo a cuerpo" de Ragnaros y sirve como una mecánica de intercambio de tanques, cuando Ragnaros lanza Ira de Ragnaros enviará a los jugadores cercanos a caer causando una pequeña cantidad de daño de fuego y desplazándolos por toda su cámara. 
+                                <br>
+                                <br>
+                                <img src="https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_volcano.gif" style="vertical-align: middle;">  Ráfaga de lava
+                                <br>
+                                Esta es la mecánica "a distancia" de la pelea, Ragnaros apuntará a un jugador enemigo aleatorio con maná y los disparará por una cantidad significativa de daño de fuego. Además, los jugadores atrapados en el radio de la explosión serán desplazados y, debido a esto, debes enfatizar el posicionamiento adecuado al configurar para tirar de Ragnaros.
+                                <br>
+                                <br>
+                                Sumergir
+                                <br>
+                                Después de 3 minutos de combate, Ragnaros se sumergerá y convocará a varios enemigos de Hijo de la llama para enjambrar y atacar su incursión.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+</section>
+
+<!-- Aquí empieza la otra seccion (guarida de onyxia) -->
+
+<section id="onyxia">
+    <div class="titulo my-4">
+        <p class="display-4 text-center text-danger font-weight-bold border-bottom border-primary w-50 mx-auto shadow">Guarida de Onyxia</p>
+    </div>
+    <div class="container-fluid">
+            <div class="row p-4">
+                <div class="col p-4">
+                    <img src="img/onyxia/boss.jpg" class="img-fluid" alt="Guarida de Onyxia">
+                </div>
+                <div class="col p-4">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rqP_t57neaI" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<!-- Aquí empieza la otra seccion (valle alterac y garganta grito de guerra) -->
+    
+<section id="alterac" class="bg-white">
+    <div class="titulo my-4">
+        <p class="display-4 text-center text-danger font-weight-bold border-bottom border-primary w-50 mx-auto shadow">Valle Alterac</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row ml-5">
+            <div class="col-12 col-md-6 col-lg-3 text-center m-2">
+                <img src="img/pvp/av.jpg" class="img-fluid" alt="Valle Alterac">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 text-center border">
+                Valle Alterac es un campo de batalla PvPvE a gran escala 40v40 para jugadores de nivel 51+. La victoria se logra cuando un equipo derrota al general enemigo, pero se pueden completar muchos objetivos para obtener una ventaja táctica, como capturar cementerios, defender torres y convocar señores de facción.
+                <img src="img/pvp/av2.jpg" class="img-fluid pt-3 pb-3">
+            </div>
+        </div>
+    <div class="titulo my-4" id="grito">
+        <p class="display-4 text-center text-danger font-weight-bold border-bottom border-primary w-50 mx-auto shadow">Garganta Grito de Guerra</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row ml-5">
+            <div class="col-12 col-md-6 col-lg-3 text-center border">
+                Garganta Grito de Guerra es un campo de batalla para capturar la bandera de 10 Alianzas / 10 Hordas donde el objetivo es capturar la bandera del lado enemigo y devolver esa bandera a su propia base. El primer equipo en lograr tres capturas y devoluciones de la bandera del enemigo gana el juego.                <img src="img/pvp/war2.jpg" class="img-fluid pt-3 pb-3">
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 text-center m-2">
+                <img src="img/pvp/war.jpg" class="img-fluid" alt="Valle Alterac">
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Aquí esta la otra seccion (proximamente) -->
+
+<section id="proximamente" class="bg-black">
+    <div class="titulo my-4">
+        <p class="display-4 text-center text-danger font-weight-bold border-bottom border-primary w-50 mx-auto shadow">Próximo</p>
+    </div>
+    <div class="container-fluid">
+            <div class="row p-4">
+                <div class="col p-4">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JNOxz9paA6E" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+
+<!--Aquí esta la otra seccion (formulario)-->
+
+<section id="contacto" class="formulario bg-white p-4">
+    <form action="#" method="GET" onsubmit="return checkForm(this);">
+        <div class="form-group">
+            <h1>Contáctanos</h1>
+        <label for="exampleInputText1">Nombre</label>
+        <br>
+            <input type="text" class="form-control-fluid" id="exampleInputText1" aria-describedby="emailHelp" placeholder="Introduce nombre" required>
+        <br>
+        <br>
+            <label for="exampleInputText2">Selecciona sexo:</label>
+        <br>
+            <input type="radio" class="form-control-fluid" id="sexo" name="sexo">Hombre
+            <br>
+            <input type="radio" class="form-control-fluid" id="sexo" name="sexo">Mujer
+
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+        <br>
+            <input type="email" class="form-controlfluid" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce email" required>
+        <br>
+        </div>
+       <div class="form-group">
+            <label for="exampleInputPassword1">Contraseña</label>
+            <br>
+                <input type="password" class="form-control-fluid" id="password" placeholder="Password" required>
+            <br>
+            <label for="exampleInputPassword1">Confirmar contraseña</label>
+            <br>
+                <input type="password" class="form-control-fluid" id="confirm_password" placeholder="Password" required>
+                <br>
+       </div>
+       <div class="form-check">
+         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+         <label class="form-check-label" for="exampleCheck1">Acepto la política de privacidad y condiciones de uso</label>
+       </div>
+       <button type="submit" style="margin-top: 10px;padding: 20px;" class="btn btn-outline-success">Enviar</button>
+     </form>  
+</section>
+
+<!-- Aquí empieza el footer -->
+
+<footer class="text-light bg-dark container-fluid">
+    <div class="row p-4">
+        <div class="col">
+            <img class="d-block mx-auto" src="img/favicon.jfif" alt="World of Warcraft" width="160">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-4">
+            <p class="border-bottom border-white">DATOS DE CONTACTO</p>
+            <ul>
+                <li>Servidor: English</li>
+                <li>Reino: Firemaw</li>
+                <li>Personaje: Ghothric</li>
+                <li>ghothric@wowclassic.com</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-4">
+            <p class="border-bottom border-white">SITE MAP</p>
+            <ul>
+                <li><a class="text-white" href="#inicio">Contenido</a></li>
+                <li><a class="text-white" href="#nucleo">Núcleo de Magma</a></li>
+                <li><a class="text-white" href="#onyxia">Guarida de Onyxia</a class="text-white"></li>
+                <li><a class="text-white" href="#pvp">Contenido PvP</a class="text-white"></li>
+                <li><a class="text-white" href="#proximamente">Próximo</a class="text-white"></li>
+                <li><a class="text-white" href="#contacto">Contáctanos</a class="text-white"></li>
+
+            </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-4">
+            <p class="border-bottom border-white">REDES SOCIALES</p>
+            <p><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp
+            <i class="fa fa-facebook-official" aria-hidden="true"></i> &nbsp
+            <i class="fa fa-instagram" aria-hidden="true"></i> &nbsp
+            <i class="fa fa-youtube-play" aria-hidden="true"></i> &nbsp
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/misjs.js"></script>
+
+</body>
+</html>
